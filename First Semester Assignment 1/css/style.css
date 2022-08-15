@@ -1,0 +1,402 @@
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 92%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main,
+.aboutme__body,
+footer {
+    width: 70%;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875em 5%;
+    background-color: #3E3E3E;
+    flex-basis: 33.3333%;
+}
+
+.about__me header {
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    cursor: pointer;
+    color: #5DFDCB;
+    font-weight: 600;
+    font-size: 1.875rem;
+}
+
+.logo:hover {
+    color: #83ffd8;
+}
+
+.nav__links {
+    list-style-type: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 1.25em;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    color: #F0F0F0;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.nav__links li a:hover {
+    color: #5DFDCB;
+}
+
+.nav__buttons {
+    display: flex;
+
+}
+
+button {
+    padding: 0.5625em 1.5625em;
+    border: 0.0625em solid #5DFDCB;
+    border-radius: 0.625em;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 1.125rem;
+    background-color: #5DFDCB;
+    color: #3E3E3E;
+}
+
+.register {
+    color: #F0F0F0;
+    background-color: #3E3E3E;
+    margin-right: 0.625em;
+}
+
+.register:hover {
+    background-color: #5DFDCB;
+}
+
+.login {
+    margin-left: 0.625em;
+}
+
+.login:hover {
+    background-color: #83ffd8;
+}
+
+.home .front {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto auto;
+}
+
+.home b {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.top {
+    margin-top: 2em;
+}
+
+.hello {
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.front div {
+    flex-basis: 40%;
+}
+
+
+img {
+    height: 40em;
+    width: 40em;
+    border-radius: 50%;
+    border: 0.625em solid #5DFDCB;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+.aboutme__body section h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2em;
+}
+
+.underline {
+    border: 0.05em solid #5DFDCB;
+    width: 100%;
+    background-color: #5DFDCB;
+    margin-bottom: 2em;
+}
+
+.aboutme__body ol li {
+    font-size: 1.2rem;
+    line-height: 3;
+}
+
+footer {
+    margin-top: auto;
+
+}
+
+footer p {
+    text-align: right;
+    font-size: 0.8rem;
+    color: grey;
+    margin: 2em 0 0.5em 0;
+}
+
+.login__title,
+.registration__title {
+    text-align: center;
+    margin-top: 1.25em;
+    font-size: 1.5625rem;
+}
+
+label,
+input,
+select {
+    display: block;
+    font-size: 1.25rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 1em;
+    border: 0.0625em solid #512D38B2;
+    border-radius: 0.625em;
+    margin-top: 0.625em;
+}
+
+label,
+form {
+    margin-top: 1.875em;
+    color: #512D38B2;
+}
+
+.login__button,
+.submit__button {
+    width: 100%;
+    padding: 1em;
+    margin-top: 4.625em;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.login__button:hover,
+.submit__button:hover {
+    background-color: #83ffd8;
+}
+
+.login__title h1,
+.login__button,
+.registration__title h1,
+.submit__button {
+    color: #512D38;
+}
+
+.login__title p,
+.registration__title p {
+    font-size: 1.25rem;
+    color: #512D38B2;
+}
+
+.forgot__pword {
+    margin-top: 2em;
+    text-align: right;
+}
+
+.forgot__pword a,
+.not__member {
+    color: grey;
+    font-size: 1.25rem;
+}
+
+.not__member {
+    text-align: center;
+}
+
+.upper__registration form section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.upper__registration div {
+    flex-basis: 45%;
+}
+
+.submit__button,
+.contact,
+.login__button {
+    margin-bottom: 4.625em;
+}
+
+.flex__calcs {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right,
+.left {
+    flex-basis: 39%;
+}
+
+.to__calc {
+    margin-top: 2em;
+}
+
+.flex__calcs button {
+    border-radius: 0;
+}
+
+.right h2,
+.left h2 {
+    margin-top: 1.875em;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.calc-button-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.calculator button,
+.calc-button {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 1.5rem;
+    height: 70%;
+    flex-basis: 24.5%;
+
+}
+
+.calculator button {
+    width: 100%;
+}
+
+
+
+.calculator button:hover,
+.calc-button:hover {
+    background-color: #ebebeb;
+}
+
+.calculator button:active,
+.calc-button:active {
+    background-color: #bbbcbe;
+}
+
+.calculator table,
+.wrapper {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
+.wrapper {
+    margin-top: 40px;
+}
+
+
+
+.calculator th,
+.screen {
+
+    padding: 20px 5px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.calculator td {
+    width: 25%;
+}
+
+.calculator .color,
+.calc-button:last-child {
+    color: white;
+    background-color: #5DFDCB;
+}
+
+.calculator .color:hover,
+.calc-button:last-child:hover {
+    background-color: #83ffd8;
+}
+
+.double {
+    flex-basis: 49.5%;
+}
+
+.triple {
+    flex-basis: 74.8%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .front,
+    .flex__calcs {
+        flex-direction: column;
+    }
+
+    .front>div {
+        flex-basis: 60%;
+    }
+
+    * {
+        font-size: 75%;
+    }
+
+    img {
+        width: 70em;
+        height: 70em;
+    }
+
+    .upper__registration form section {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <span><a href="About me.html" class="logo">OluwaSeun</a></span>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="About me.html">Home</a></li>
+                <li><a href="About me.html">About Me</a></li>
+                <li><a href="contact page.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section class="nav__buttons">
+            <a href="register.html"><button class="register">Register</button></a>
+            <a href="login page.html"><button class="login">Login</button></a>
+        </section>
+    </header>
+    <main>
+        <section class="flex__calcs">
+            <section class="left">
+                <section>
+                    <h2>A Calculator created using table</h2>
+                </section>
+                <section class="calculator">
+                    <table>
+                        <section class="screen">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">0</th>
+                                </tr>
+                            </thead>
+                        </section>
+                        <section class="calc-buttons">
+                            <tbody>
+                                <tr>
+                                    <td class="clear" colspan="2"><button>C</button></td>
+                                    <td><button>&larr;</button></td>
+                                    <td><button class="color">&divide;</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>7</button></td>
+                                    <td><button>8</button></td>
+                                    <td><button>9</button></td>
+                                    <td><button class="color">&times;</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>4</button></td>
+                                    <td><button>5</button></td>
+                                    <td><button>6</button></td>
+                                    <td><button class="color">&minus;</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button>1</button></td>
+                                    <td><button>2</button></td>
+                                    <td><button>3</button> </td>
+                                    <td><button class="color">&plus;</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="zero" colspan="3"><button>0</button></td>
+                                    <td><button class="color">&equals;</button></td>
+                                </tr>
+                            </tbody>
+                        </section>
+                    </table>
+                </section>
+            </section>
+            <section class="right">
+                <section>
+                    <h2>A Calculator created using flexbox</h2>
+                </section>
+                <section class="wrapper">
+                    <section class="screen">
+                        0
+                    </section>
+
+                    <section class="calc-buttons">
+                        <div class="calc-button-row">
+                            <button class="calc-button double">C</button>
+                            <button class="calc-button">&larr;</button>
+                            <button class="calc-button">&divide;</button>
+                        </div>
+                        <div class="calc-button-row">
+                            <button class="calc-button">7</button>
+                            <button class="calc-button">8</button>
+                            <button class="calc-button">9</button>
+                            <button class="calc-button">&times;</button>
+                        </div>
+                        <div class="calc-button-row">
+                            <button class="calc-button">4</button>
+                            <button class="calc-button">5</button>
+                            <button class="calc-button">6</button>
+                            <button class="calc-button">&minus;</button>
+                        </div>
+                        <div class="calc-button-row">
+                            <button class="calc-button">1</button>
+                            <button class="calc-button">2</button>
+                            <button class="calc-button">3</button>
+                            <button class="calc-button">&plus;</button>
+                        </div>
+                        <div class="calc-button-row">
+                            <button class="calc-button triple">0</button>
+                            <button class="calc-button">&equals;</button>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
